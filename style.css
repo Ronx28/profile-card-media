@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    width: 350px;
+    height: 360px;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden; 
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.rounded-svg {
+    border-radius: 20px; 
+}
+.container img{
+    display: flex;
+    border-radius: 50%;
+    margin-left: 8vw;
+    margin-top: -3vw;    
+}
+
+.victor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.victor h4{
+    color:  hsl(0, 0%, 59%);
+    font-size: 18px;
+    font-family: 'Kumbh Sans';
+}
+.victor h3{
+    font-size: 18px;
+    font-family: 'Kumbh Sans';
+}
+p{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: hsl(0, 0%, 59%);
+    font-family: 'Kumbh Sans';
+}
+hr{
+    margin-top: 15px;
+}
+
+.many {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+    font-family: 'Kumbh Sans';
+}
+
+.follow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Kumbh Sans';
+    gap: 20px;
+    color: hsl(0, 0%, 59%);
+}
+
+@media (max-width: 400px){
+    .container{
+        width: 80vw;
+        height: 70vh;
+    }
+    .container img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+
